@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="OOSD2Coursework.jnlp">
+  <information>
+    <title>OOSD2Coursework</title>
+    <vendor>nik_3</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OOSD2Coursework.jar" size="21159" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="OOSD2Coursework" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="oosd2coursework.OOSD2Coursework"  name="OOSD2Coursework" />
+  <update check="always"/>
+</jnlp>
